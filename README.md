@@ -1,6 +1,6 @@
 # Overview
 
-Utilities for working with various versions of Minecraft: Java Edition.
+Utilities for working with various versions of Minecraft: Java Edition at runtime.
 
 This project only works for Minecraft 1.17.1+ in the [Paper software](https://papermc.io/software/paper).
 
@@ -26,5 +26,5 @@ added in 2020 (and not depends on parsing the OBC package name), which is why th
 
 # Basic usage
 
-You will be mostly using the `MinecraftVersions` class to check the Minecraft version at the runtime,
-and the `PackageVersion` class to check the OBC package version in the runtime.
+You will be mostly using the `MinecraftVersions` class to check the Minecraft version at runtime, and the
+`PackageVersion` class to check the OBC package version at runtime.
