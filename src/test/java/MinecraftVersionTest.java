@@ -1,7 +1,7 @@
 import be.seeseemelk.mockbukkit.MockBukkit;
 import be.seeseemelk.mockbukkit.ServerMock;
 import cc.mewcraft.version.MinecraftVersion;
-import cc.mewcraft.version.PackageVersion;
+import cc.mewcraft.version.NmsVersion;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -29,11 +29,11 @@ public class MinecraftVersionTest {
 
     @Test
     public void testPackageVersion1() {
-        assertDoesNotThrow(PackageVersion::runtimeVersion);
+        assertDoesNotThrow(NmsVersion::runtimeVersion);
     }
 
     @Test
     public void testPackageVersion2() {
-        assertNotEquals(PackageVersion.runtimeVersion(), PackageVersion.NONE);
+        assertNotEquals(NmsVersion.runtimeVersion(), NmsVersion.NONE);
     }
 }
