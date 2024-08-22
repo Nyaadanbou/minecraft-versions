@@ -38,6 +38,8 @@ import org.checkerframework.framework.qual.DefaultQualifier;
 @SuppressWarnings({"UnreachableCode", "ConstantValue"})
 @DefaultQualifier(NonNull.class)
 public final class MinecraftVersions {
+    public static final MinecraftVersion v1_21_1 = MinecraftVersion.parse("1.21.1");
+    public static final MinecraftVersion v1_21 = MinecraftVersion.parse("1.21");
 
     public static final MinecraftVersion v1_20_6 = MinecraftVersion.parse("1.20.6");
     public static final MinecraftVersion v1_20_5 = MinecraftVersion.parse("1.20.5");
