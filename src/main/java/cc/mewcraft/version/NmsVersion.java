@@ -71,7 +71,7 @@ public enum NmsVersion {
     // of Minecraft version.
 
     v1_20_R4(false, MinecraftVersions.v1_20_5, MinecraftVersions.v1_20_6),
-    v1_21_R1(false, MinecraftVersions.v1_21, MinecraftVersions.v1_21_1)
+    v1_21_R1(false, MinecraftVersions.v1_21, MinecraftVersions.v1_21_1, MinecraftVersions.v1_21_2, MinecraftVersions.v1_21_3)
     ;
 
     /**
